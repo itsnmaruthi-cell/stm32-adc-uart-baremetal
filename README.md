@@ -43,6 +43,8 @@ split-rail continuity issues.
 **Hardware setup:**
 
 <img width="952" height="675" alt="image" src="https://github.com/user-attachments/assets/d9678470-2ad6-45f4-8475-aaadc88d6cab" />
+<img width="296" height="360" alt="image" src="https://github.com/user-attachments/assets/5c691bb7-06db-402b-bba8-92ec96d2b524" />
+
 
 
 **Live output** — voltage readings updating as the potentiometer is turned:
