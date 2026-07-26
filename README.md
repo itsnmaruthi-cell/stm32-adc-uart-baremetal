@@ -38,6 +38,18 @@ split-rail continuity issues.
 4. **USART2**, running at 9600 baud, sends the buffer one byte per TXE interrupt,
    then disables the interrupt once the message is fully sent.
 
+## Demo
+
+**Hardware setup:**
+
+<img width="952" height="675" alt="image" src="https://github.com/user-attachments/assets/d9678470-2ad6-45f4-8475-aaadc88d6cab" />
+
+
+**Live output** — voltage readings updating as the potentiometer is turned:
+
+<img width="766" height="482" alt="image" src="https://github.com/user-attachments/assets/f83a5d8d-7485-468d-bb69-6d970ae034b2" />
+
+
 ## Peripherals Used
 
 | Peripheral | Purpose |
@@ -78,5 +90,8 @@ split-rail continuity issues.
 - Average multiple ADC samples for a more stable reading.
 - Support multiple ADC channels.
 
- 
-"Built while working through STM32 reference manuals and datasheets, with guidance along the way on register-level debugging."
+## Acknowledgments
+
+Built while working through the STM32F401RE reference manual and datasheet,
+with guidance along the way on register-level debugging and interrupt design.
+All wiring, testing, and final implementation were done hands-on.
